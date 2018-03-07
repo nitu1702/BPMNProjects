@@ -1,0 +1,9 @@
+package com.acme.migration.vmmigration;
+
+import java.lang.Number;
+
+rule "VM Memory Validation"
+	dialect "mvel"
+	when
+	then
+end

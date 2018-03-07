@@ -4,6 +4,8 @@ import java.lang.Number;
 
 rule "VM Memory Validation"
 	dialect "mvel"
+	ruleflow-group "validation"
+	no-loop true
 	when
 		vminst : VMInstance( isActive == true , ostype == "windows" , memory < 1024 )
 	then

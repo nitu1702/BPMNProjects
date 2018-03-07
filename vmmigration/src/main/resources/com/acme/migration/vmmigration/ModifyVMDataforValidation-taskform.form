@@ -1,0 +1,79 @@
+
+<form id="1455474915">
+<property name="name" value="ModifyVMDataforValidation-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="4" name="vminstanceProcessVariable_memory" type="InputTextInteger" id="612607794">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;memory (vminstanceProcessVariable)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vmInstanceIn/memory"/>
+<property name="outputBinding" value="vmInstanceOut/memory"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="vminstanceProcessVariable_name" type="InputText" id="1434489618">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (vminstanceProcessVariable)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vmInstanceIn/name"/>
+<property name="outputBinding" value="vmInstanceOut/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="vminstanceProcessVariable_createddate" type="InputDate" id="1401233462">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;createddate (vminstanceProcessVariable)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vmInstanceIn/createddate"/>
+<property name="outputBinding" value="vmInstanceOut/createddate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="6" name="vminstanceProcessVariable_numberofCores" type="InputTextInteger" id="757053337">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numberofCores (vminstanceProcessVariable)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vmInstanceIn/numberofCores"/>
+<property name="outputBinding" value="vmInstanceOut/numberofCores"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="vminstanceProcessVariable_vminstanceId" type="InputTextInteger" id="294665190">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;vminstanceId (vminstanceProcessVariable)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vmInstanceIn/vminstanceId"/>
+<property name="outputBinding" value="vmInstanceOut/vminstanceId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="7" name="vminstanceProcessVariable_ostype" type="InputText" id="1115752969">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ostype (vminstanceProcessVariable)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vmInstanceIn/ostype"/>
+<property name="outputBinding" value="vmInstanceOut/ostype"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="vminstanceProcessVariable_isRunning" type="CheckBox" id="549689258">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isRunning (vminstanceProcessVariable)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vmInstanceIn/isRunning"/>
+<property name="outputBinding" value="vmInstanceOut/isRunning"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="vminstanceProcessVariable_isActive" type="CheckBox" id="1216609246">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isActive (vminstanceProcessVariable)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vmInstanceIn/isActive"/>
+<property name="outputBinding" value="vmInstanceOut/isActive"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="vminstanceProcessVariable_hostid" type="InputTextInteger" id="1102321291">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;hostid (vminstanceProcessVariable)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vmInstanceIn/hostid"/>
+<property name="outputBinding" value="vmInstanceOut/hostid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="vmInstanceIn" name="#E9E371" type="dataModelerEntry" outId="vmInstanceOut" value="com.acme.migration.vmmigration.VMInstance" id="vminstanceProcessVariable"/>
+</form>

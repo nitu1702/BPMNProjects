@@ -7,4 +7,5 @@ rule "VM Memory Validation"
 	when
 		vminst : VMInstance( isActive == true , ostype == "windows" , memory < 1024 )
 	then
+		vminst.setIsActive( false );
 end

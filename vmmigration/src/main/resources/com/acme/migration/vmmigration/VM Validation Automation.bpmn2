@@ -21,7 +21,7 @@
           <drools:metaValue><![CDATA[Validate VM Data]]></drools:metaValue>
         </drools:metaData>
         <drools:onEntry-script scriptFormat="http://www.java.com/java">
-          <drools:script><![CDATA[kcontext.getKnowledgeRuntime().insert(vminstanceProcessVariable);]]></drools:script>
+          <drools:script><![CDATA[kcontext.getKnowledgeRuntime().insert(vminstance);]]></drools:script>
         </drools:onEntry-script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_B45B233D-A3C6-4BB4-BA76-1E83FE05E24A</bpmn2:incoming>

@@ -1,4 +1,4 @@
 Repository Init Content
 =======================
 
-Your project description here.
+This project demonstrates simple concept of BPMN

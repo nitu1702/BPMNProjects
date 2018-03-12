@@ -82,7 +82,7 @@
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
       <bpmn2:dataInputAssociation id="_rI349CX5EeidaMmYoFb_og">
-        <bpmn2:sourceRef>vminstanceProcessVariable</bpmn2:sourceRef>
+        <bpmn2:sourceRef>vminstance</bpmn2:sourceRef>
         <bpmn2:targetRef>_1180B03A-DAF8-4797-A770-F88D0B9442EE_vmInstanceInInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
       <bpmn2:dataInputAssociation id="_rI349SX5EeidaMmYoFb_og">
@@ -94,7 +94,7 @@
       </bpmn2:dataInputAssociation>
       <bpmn2:dataOutputAssociation id="_rI34-SX5EeidaMmYoFb_og">
         <bpmn2:sourceRef>_1180B03A-DAF8-4797-A770-F88D0B9442EE_vmInstanceOutOutputX</bpmn2:sourceRef>
-        <bpmn2:targetRef>vminstanceProcessVariable</bpmn2:targetRef>
+        <bpmn2:targetRef>vminstance</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
       <bpmn2:potentialOwner id="_rI34-iX5EeidaMmYoFb_og">
         <bpmn2:resourceAssignmentExpression id="_rI34-yX5EeidaMmYoFb_og">
